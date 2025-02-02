@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio 6 - Funciones</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="container__contenido">
+            <div class="container__informaciones">
+                <div class="container__texto">
+                    <h1 id="tituloDesafio"></h1>                    
+                </div class="chute container__botones">
+                    <p class="texto__parrafo" id="t-Alturaimc"></p>
+                    <input type="number" id="alturaParaIMC" min="1" max="5" class="container__input">
+                    <p class="texto__parrafo" id="t-Pesoimc"></p>
+                    <input type="number" id="anchoParaIMC" min="1" max="5" class="container__input">  
+                    <p class="texto__parrafo" id="t-imc"></p> 
+                    <button onclick="btnIndiceMasaCorporal();" class="container__boton" id="imc" >Indice de masa corporal</button>
+                    
+                    <p class="texto__parrafo" id="t-numeroFactorial"></p>
+                    <input type="number" id="datosParaFactorial" min="1" max="5" class="container__input">
+                    <p class="texto__parrafo" id="t-factorial"></p>
+                    <button onclick="btnFactorial();" class="container__boton" id="factorial" >Factorial</button>
+                    
+                    <p class="texto__parrafo" id="t-dolarRecibido"></p>
+                    <input type="number" id="datosParaDolar" min="1" max="5" class="container__input">
+                    <p class="texto__parrafo" id="t-dolar"></p>
+                    <button onclick="btnDolar();" class="container__boton" id="dolar" >Dólar a Soles</button>
+                    
+                    <p class="texto__parrafo" id="t-altoRectangulo"></p>
+                    <input type="number" id="altoParaRectangulo" min="1" max="5" class="container__input">
+                    <p class="texto__parrafo" id="t-anchoRectangulo"></p>
+                    <input type="number" id="anchoParaRectangulo" min="1" max="5" class="container__input">
+                    <p class="texto__parrafo" id="t-resultadoRectangulo"></p>
+                    <button onclick="btnRectangulo();" class="container__boton" id="rectangulo" >Área y Perímetro rectangular</button>
+                    
+                    <p class="texto__parrafo" id="t-radioCirculo"></p>
+                    <input type="number" id="datosParaCirculo" min="1" max="5" class="container__input">
+                    <p class="texto__parrafo" id="t-resultadoCirculo"></p>
+                    <button onclick="btnCirculo();" class="container__boton" id="circulo" >Área y Perímetro circular</button>
+                    
+                    <p class="texto__parrafo" id="t-tabla"></p>
+                    <input type="number" id="datosParaTabla" min="1" max="5" class="container__input">                    
+                    <button onclick="btnTabla();" class="container__boton" id="tabla" >Tabla</button>                 
+                    <p class="texto__parrafo" id="t-tablaResultado"></p>
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+
+
+
+
+    <script src="app.js" defer></script>
+</body>
+
+</html>
